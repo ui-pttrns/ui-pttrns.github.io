@@ -1,0 +1,4 @@
+[submodule "app/styles"]
+	path = app/styles
+	url = https://github.com/visualapps/light.git
+	branch = dist
