@@ -13,6 +13,7 @@ Router.map(function() {
     this.route('forms');
     this.route('login');
     this.route('signup');
+    this.route('404');
   });
 });
 

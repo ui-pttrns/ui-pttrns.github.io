@@ -1,0 +1,44 @@
+<div class="container-fluid mt-4">
+  <div class="grid">
+    <!-- 1 col @ xs, 1 col @ sm, 1 col @ md -->
+      <div class="grid-sizer"></div>
+
+    <div class="grid-item col-xs-12 col-sm-6 mb-20">
+      <div class="grid-item-content">
+		<img src="/assets/patterns/404/atlassian.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 mb-20">
+      <div class="grid-item-content">
+		<img src="/assets/patterns/404/github.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 mb-20">
+      <div class="grid-item-content">
+		<img src="/assets/patterns/404/google.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 mb-20">
+      <div class="grid-item-content">
+		<img src="/assets/patterns/404/asana.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 mb-20">
+      <div class="grid-item-content">
+		<img src="/assets/patterns/404/aws.png" class="img-fluid">
+      </div>
+    </div>
+    <div class="grid-item col-xs-12 col-sm-6 mb-20">
+      <div class="grid-item-content">
+		<img src="/assets/patterns/404/zapier.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+$('.grid').masonry({
+  itemSelector: '.grid-item', // use a separate class for itemSelector, other than .col-
+  columnWidth: '.grid-sizer',
+  percentPosition: true
+});
+</script>
