@@ -30,9 +30,9 @@ You will need the following things properly installed on your computer.
 
 ### Building
 
-`ember build --environment production (production)` 
+`ember build --environment production` (production)
 
-`cp -R dist/* ./ (copy dist to root)`
+`cp -R dist/* ./` (copy dist to root)
 
 ### Deploying
 
