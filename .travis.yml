@@ -1,5 +1,12 @@
 # .travis.yml
 # ...
+before_install:
+  - npm config set spin false
+  - npm install -g npm@6
+  - npm --version
+
+install:
+  - npm install
 script:
   - npm run build -- -prod # build app and prepare dist folder
 # deploy master branch to GitHub pages
