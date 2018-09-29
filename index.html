@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Website Design Patterns</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="/assets/images/favicon-509ce69f7dc930b0fdd37491a023a6af.png" href="/assets/images/favicon-509ce69f7dc930b0fdd37491a023a6af.png">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Website Design Patterns</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="/assets/images/favicon-509ce69f7dc930b0fdd37491a023a6af.png" href="/assets/images/favicon-509ce69f7dc930b0fdd37491a023a6af.png">
+  <meta name="ui-pttrns/config/environment" content="%7B%22modulePrefix%22%3A%22ui-pttrns%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22/%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22ui-pttrns%22%2C%22version%22%3A%220.0.0+4c4b7c15%22%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+  <link integrity="" rel="stylesheet" href="/assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css">
+  <link integrity="" rel="stylesheet" href="/assets/ui-pttrns-f48c8140328470c08fb2390fd18648b2.css">
+</head>
+<body>
+  <script src="/assets/vendor-0aa5dee1da7809fb51c2a1ea3f529671.js" integrity="sha256-+hVv4R1ktd265hYNxKt4qdZcaBrHqwO8kttC96zNbNs= sha512-vGmTQEAmkYMU6WxWT4YxdU8VN/Z9FDz5cBLSJPh24fLZ1dkV3zgsIJvVLl5aHH0XkAJieowrFMZPgpGyY+EF/A=="></script>
+  <script src="/assets/ui-pttrns-b1a6ab5e116f824bff0cc9e54f5331d0.js" integrity="sha256-QgCbfYW5eRNtwFt00j0+39JRY1gIedf5QhBCBFypcGU= sha512-dtlCWNbXOa/AxYpgQmJAK36E45slkR0+0BhO5LxGn6Lhx6xOwQ51xQogp15IgdLISDHc8eTSw96ZpAfKT/8wsg=="></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/masonry/4.1.1/masonry.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122932511-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-    
-<meta name="ui-pttrns/config/environment" content="%7B%22modulePrefix%22%3A%22ui-pttrns%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22/%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22ui-pttrns%22%2C%22version%22%3A%220.0.0+4c4b7c15%22%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-    <link integrity="" rel="stylesheet" href="/assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css">
-    <link integrity="" rel="stylesheet" href="/assets/ui-pttrns-f48c8140328470c08fb2390fd18648b2.css">
+    gtag('config', 'UA-122932511-1');
+  </script>
 
-    
-  </head>
-  <body>
-    
-
-    <script src="/assets/vendor-0aa5dee1da7809fb51c2a1ea3f529671.js" integrity="sha256-+hVv4R1ktd265hYNxKt4qdZcaBrHqwO8kttC96zNbNs= sha512-vGmTQEAmkYMU6WxWT4YxdU8VN/Z9FDz5cBLSJPh24fLZ1dkV3zgsIJvVLl5aHH0XkAJieowrFMZPgpGyY+EF/A==" ></script>
-    <script src="/assets/ui-pttrns-b1a6ab5e116f824bff0cc9e54f5331d0.js" integrity="sha256-QgCbfYW5eRNtwFt00j0+39JRY1gIedf5QhBCBFypcGU= sha512-dtlCWNbXOa/AxYpgQmJAK36E45slkR0+0BhO5LxGn6Lhx6xOwQ51xQogp15IgdLISDHc8eTSw96ZpAfKT/8wsg==" ></script>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/masonry/4.1.1/masonry.pkgd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122932511-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-122932511-1');
-</script>
-
-<!-- Hotjar Tracking Code for https://ui-pttrns.com -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:962557,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-  </body>
+  <!-- Hotjar Tracking Code for https://ui-pttrns.com -->
+  <script>
+    (function(h, o, t, j, a, r) {
+      h.hj = h.hj || function() {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 962557,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+</body>
 </html>
