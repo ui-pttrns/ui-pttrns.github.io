@@ -1,0 +1,8 @@
+{
+  "name": "ui-pttrns",
+  "dependencies": {
+    "masonry": "^4.2.2",
+    "imagesloaded": "^4.1.4",
+    "zoom.js.full": "^0.0.1"
+  }
+}

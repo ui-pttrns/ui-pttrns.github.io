@@ -1,54 +1,11 @@
 <div class="container-fluid mt-4">
-  <div class="grid">
-    <!-- 1 col @ xs, 1 col @ sm, 1 col @ md -->
-    <div class="grid-sizer"></div>
-
-    <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-        <img src="/assets/patterns/login/atlassian.png" class="img-fluid">
+  {{#masonry-grid items=items customLayout=true as |item index grid|}}
+    {{#masonry-item item=item grid=grid }}
+      <div class="patterns-box">
+        <div class="patterns-box_item">
+        <img src={{item.url}} class="masonry-image">
       </div>
     </div>
-    <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-        <img src="/assets/patterns/login/github.png" class="img-fluid">
-      </div>
-    </div>
-    <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-        <img src="/assets/patterns/login/google.png" class="img-fluid">
-      </div>
-    </div>
-    <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-        <img src="/assets/patterns/login/dockerhub.png" class="img-fluid">
-      </div>
-    </div>
-    <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-        <img src="/assets/patterns/login/asana.png" class="img-fluid">
-      </div>
-    </div>
-    <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-        <img src="/assets/patterns/login/angel.png" class="img-fluid">
-      </div>
-    </div>
-    <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-        <img src="/assets/patterns/login/instagram.png" class="img-fluid">
-      </div>
-    </div>
-    <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-        <img src="/assets/patterns/login/teachable.png" class="img-fluid">
-      </div>
-    </div>
-  </div>
+    {{/masonry-item}}
+  {{/masonry-grid}}
 </div>
-<script>
-  $('.grid').masonry({
-    itemSelector: '.grid-item', // use a separate class for itemSelector, other than .col-
-    columnWidth: '.grid-sizer',
-    percentPosition: true
-  });
-</script>
