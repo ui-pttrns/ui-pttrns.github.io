@@ -1,35 +1,15 @@
 <div class="container-fluid mt-4">
-  <div class="grid">
-    <!-- 1 col @ xs, 1 col @ sm, 1 col @ md -->
+    <div class="grid">
+      <!-- 1 col @ xs, 1 col @ sm, 1 col @ md -->
       <div class="grid-sizer"></div>
-
-    <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-		<img src="/assets/patterns/onboarding/1-jira.png" class="img-fluid">
+      {{#each images as |image|}}
+      <div class="grid-item col-xs-12 col-sm-6 mb-20">
+        <div class="grid-item-content">
+          <img src={{image.url}} class="img-fluid">
+        </div>
       </div>
+      {{/each}}
     </div>
-    <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-		<img src="/assets/patterns/onboarding/2-jira.png" class="img-fluid">
-      </div>
-    </div>
-     <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-		<img src="/assets/patterns/onboarding/3-jira.png" class="img-fluid">
-      </div>
-    </div>
-     <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-		<img src="/assets/patterns/onboarding/4-jira.png" class="img-fluid">
-      </div>
-    </div>
-     <div class="grid-item col-xs-12 col-sm-6 mb-20">
-      <div class="grid-item-content">
-		<img src="/assets/patterns/onboarding/5-jira.png" class="img-fluid">
-      </div>
-    </div>
-
-  </div>
 </div>
 <script>
 $('.grid').masonry({
