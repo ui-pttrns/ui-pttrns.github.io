@@ -25,7 +25,6 @@
       {name:'trello', url:'/assets/patterns/signups/trello.png'},
       {name:'asana', url:'/assets/patterns/signups/asana.png'},
       {name:'github', url:'/assets/patterns/signups/github.png'}
-
     ]
     export const page404 = [
       {name:'atlassian', url:'/assets/patterns/404/atlassian.png'},
