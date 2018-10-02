@@ -36,7 +36,6 @@ You will need the following things properly installed on your computer.
 
 ### Deploying
 
-https://mayadata-io.github.io/maya-light/
 
 ## Further Reading / Useful Links
 
