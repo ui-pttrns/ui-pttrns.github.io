@@ -1,22 +1,25 @@
 {{page-header}}
 <div class="container-fluid" style="margin-top:60px;">
-<div class="row">
-<div class="col-2">
-{{sidebar/global-sidebar}}
-</div>
-<div class="col">
-{{outlet}}
-</div>
-</div>
+  <div class="row">
+    <div class="col-2">
+      {{sidebar/global-sidebar}}
+    </div>
+    <div class="col">
+      {{outlet}}
+    </div>
+  </div>
 </div>
 {{page-footer}}
 
-<style type="text/css">
-.grid-sizer, .grid-item { width: 450px; }
-.grid-item--width2 { width: 600px; }
-.grid-item-content{box-shadow: 0 0 0 1px #F4F5F7;}
-.mb-20{
-	margin-bottom: 20px;
+<style>
+.masonry-image {
+	height: auto;
+	width: 600px;
+}
+.patterns-box {
+  margin:12px;
+}
+.patterns-box_item {
+  border:1px solid #DFE1E6;
 }
 </style>
-

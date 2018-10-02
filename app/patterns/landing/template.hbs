@@ -1,0 +1,11 @@
+<div class="container-fluid mt-4">
+  {{#masonry-grid items=items customLayout=true as |item index grid|}}
+    {{#masonry-item item=item grid=grid }}
+      <div class="patterns-box">
+        <div class="patterns-box_item">
+        <img src={{item.url}} class="masonry-image">
+      </div>
+    </div>
+    {{/masonry-item}}
+  {{/masonry-grid}}
+</div>
