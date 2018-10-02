@@ -1,6 +1,6 @@
 import Ember from 'ember';
-import landing from '../../util/images-url';
+import {page404} from '../../util/images-url';
 
 export default Ember.Controller.extend({
-  items: landing,
+  items: page404,
 });
