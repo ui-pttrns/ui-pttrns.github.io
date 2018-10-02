@@ -9,7 +9,7 @@
     export const login = [
       {name:'atlassian', url:'/assets/patterns/login/atlassian.png'},
       {name:'google', url:'/assets/patterns/login/google.png'},
-      {name:'aws', url:'/assets/patterns/login/aws.png'},
+      {name:'aws', url:'/assets/patterns/login/github.png'},
       {name:'asana', url:'/assets/patterns/login/asana.png'},
       {name:'docker', url:'/assets/patterns/login/dockerhub.png'},
       {name:'angel', url:'/assets/patterns/login/angel.png'},
