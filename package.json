@@ -11,8 +11,11 @@
   },
   "repository": "",
   "scripts": {
+    "install-dep": "yarn install && bower install",
     "build": "ember build --environment=production",
+    "dist-copy": "cp -R dist/* ./",
     "start": "ember server",
+    "clean": "rm -rf node_modules bower_components build dist",
     "test": "ember test"
   },
   "devDependencies": {
