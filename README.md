@@ -1,9 +1,10 @@
 # ui-pttrns
 
 UI patterns library.
+
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+You will need the following things to be properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with NPM)
