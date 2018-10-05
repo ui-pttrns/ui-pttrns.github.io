@@ -34,8 +34,6 @@ You will need the following things properly installed on your computer.
 
 `cp -R dist/* ./` (copy dist to root)
 
-### Deploying
-
 
 ## Further Reading / Useful Links
 
