@@ -1,9 +1,10 @@
 # ui-pttrns
 
 UI patterns library.
+
 ## Prerequisites
 
-You will need the following things properly installed on your computer.
+You will need the following things to be properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with NPM)
@@ -12,7 +13,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/ui-pttrns/ui-pttrns.github.io`
 * `cd ui-pttrns`
 * `npm install`
 
@@ -30,11 +31,9 @@ You will need the following things properly installed on your computer.
 
 ### Building
 
-`ember build --environment production` (production)
+`ember build`
 
 `cp -R dist/* ./` (copy dist to root)
-
-### Deploying
 
 
 ## Further Reading / Useful Links
