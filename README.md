@@ -1,45 +1,22 @@
 # ui-pttrns
 
-UI patterns library.
+UI patterns of top web applications from internet.
 
-## Prerequisites
+## Contribution 
+ui-pttrns.com is the collection of web ui patterns from top web application and website which help developer and designer to explore the desings in one place. 
 
-You will need the following things to be properly installed on your computer.
-
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
-
-## Installation
-
+Q: I have a screen can i upload it into ui-pttrns.com?
+A: YES. Follow the below steps:
+   1. Upload your screens in app/assets/patterns folder according to categories of screens.
+   2. Mention urls of uploaded images in app/util/images-url.js in currect categories
+   
+## Running / Development
 * `git clone https://github.com/ui-pttrns/ui-pttrns.github.io`
 * `cd ui-pttrns`
 * `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
+* `ember s`
 
 ### Building
 
-`ember build`
-
-`cp -R dist/* ./` (copy dist to root)
-
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+`yarn build`
+`yarn copy-dist` (move productoin dist to root of the repo.)
