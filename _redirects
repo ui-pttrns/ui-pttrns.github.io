@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://nervous-bell-51eee1.netlify.com/* http://ui-pttrns.com/:splat 301!
