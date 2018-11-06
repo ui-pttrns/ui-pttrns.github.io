@@ -14,6 +14,7 @@ Router.map(function() {
     this.route('login');
     this.route('signup');
     this.route('404');
+    this.route('calltoactions');
   });
 });
 
