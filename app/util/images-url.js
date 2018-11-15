@@ -8,8 +8,6 @@
       { name: '7', url:'/assets/patterns/onboarding/fullstory-3.png' },
       { name: '8', url:'/assets/patterns/onboarding/onboarding-1.png' },
       { name: '9', url:'/assets/patterns/onboarding/onboarding-2.png' }
-
-
     ]
 
     export const login = [
