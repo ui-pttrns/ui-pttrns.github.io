@@ -1,0 +1,20 @@
+.header-bg-lighter {
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 60px;
+	margin-left: 15px;
+}
+.grid div {
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid #DFE1E6;
+  cursor: zoom-in;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.image-placeholder {
+height:400px;
+width:600px;
+background:#DFE1E6;
+}
