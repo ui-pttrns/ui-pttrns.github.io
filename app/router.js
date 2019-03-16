@@ -17,6 +17,7 @@ Router.map(function() {
     this.route('calltoactions');
     this.route('loading');
     this.route('betalaunch');
+    this.route('modal');
   });
 });
 

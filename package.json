@@ -37,15 +37,16 @@
     "ember-data": "~2.16.2",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
-    "ember-masonry-grid": "^1.1.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.16.0",
-    "loader.js": "^4.2.3"
+    "ember-truth-helpers": "^2.1.0",
+    "loader.js": "^4.2.3",
+    "magic-grid": "^3.2.4"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
   },
   "dependencies": {
-    "ember-lodash": "^4.18.0"
+    "ember-lodash": "^4.18.0",
   }
 }

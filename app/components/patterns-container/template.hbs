@@ -1,11 +1,10 @@
-<div class="container-fluid mt-4">
-  {{#masonry-grid items=items customLayout=true as |item index grid|}}
-    {{#masonry-item item=item grid=grid }}
-      <div class="patterns-box">
-        <div class="patterns-box_item" {{ action 'openModal' item.url }}>
-        <img src={{item.url}} class="masonry-image">
-      </div>
+<div class="grid">
+  {{#each items as |item|}}
+    <div class="item" {{ action 'openModal' item.url }}>
+      {{#if (eq loading true)}}
+        <div class="image-placeholder"/>
+      {{/if}}
+      <img src= {{item.url}} class="img-fluid" onload= {{action 'placeholder'}}>
     </div>
-    {{/masonry-item}}
-  {{/masonry-grid}}
+  {{/each}}
 </div>

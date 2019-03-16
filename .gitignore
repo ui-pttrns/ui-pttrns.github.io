@@ -22,3 +22,4 @@ testem.log
 bower.json.ember-try
 package.json.ember-try
 public/assets/patterns/signups/.DS_Store
+.DS_Store
