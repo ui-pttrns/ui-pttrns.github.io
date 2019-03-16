@@ -11,7 +11,7 @@
   },
   "repository": "",
   "scripts": {
-    "install-dep": "yarn install && bower install",
+    "install-dep": "npm install",
     "build": "ember build --environment=production",
     "dist-copy": "cp -R dist/* ./",
     "start": "ember server",
