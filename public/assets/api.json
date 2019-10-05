@@ -1,0 +1,294 @@
+{
+  "data": [{
+      "id": "1",
+      "type": "patterns",
+      "attributes": {
+        "name": "atlassian",
+        "label": "label",
+        "url": "https://hello.com/images/fuckher",
+        "kind": "onboarding"
+      },
+      "relationships": {}
+    }, {
+      "id": "2",
+      "type": "patterns",
+      "attributes": {
+        "name": "atlassian",
+        "label": "label",
+        "url": "https://hello.com/images/fuckher",
+        "kind": "onboarding"
+      },
+      "relationships": {}
+    }, {
+      "id": "3",
+      "type": "patterns",
+      "attributes": {
+        "name": "atlassian",
+        "label": "label",
+        "url": "https://hello.com/images/fuckher",
+        "kind": "onboarding"
+      },
+      "relationships": {}
+    },
+    {
+      "id": "4",
+      "type": "patterns",
+      "attributes": {
+        "name": "1",
+        "url": "/assets/patterns/onboarding/1-jira.png"
+      }
+    }, {
+      "id": "5",
+      "type": "patterns",
+      "attributes": {
+        "name": "2",
+        "url": "/assets/patterns/onboarding/2-jira.png"
+      }
+    }, {
+      "id": "6",
+      "type": "patterns",
+      "attributes": {
+        "name": "3",
+        "url": "/assets/patterns/onboarding/3-jira.png"
+      }
+    }, {
+      "id": "7",
+      "type": "patterns",
+      "attributes": {
+        "name": "4",
+        "url": "/assets/patterns/onboarding/4-jira.png"
+      }
+    }, {
+      "id": "8",
+      "type": "patterns",
+      "attributes": {
+        "name": "8",
+        "url": "/assets/patterns/onboarding/5-jira.png"
+      }
+    }, {
+      "id": "9",
+      "type": "patterns",
+      "attributes": {
+        "name": "6",
+        "url": "/assets/patterns/onboarding/fullstory-1.png"
+      }
+    }, {
+      "id": "10",
+      "type": "patterns",
+      "attributes": {
+        "name": "7",
+        "url": "/assets/patterns/onboarding/fullstory-3.png"
+      }
+    }, {
+      "id": "11",
+      "type": "patterns",
+      "attributes": {
+        "name": "8",
+        "url": "/assets/patterns/onboarding/onboarding-1.png"
+      }
+    }, {
+      "id": "12",
+      "type": "patterns",
+      "attributes": {
+        "name": "9",
+        "url": "/assets/patterns/onboarding/onboarding-2.png"
+      }
+    }, {
+      "id": "13",
+      "type": "patterns",
+      "attributes": {
+        "name": "10",
+        "url": "/assets/patterns/onboarding/airtable.png"
+      }
+    }, {
+      "id": "14",
+      "type": "patterns",
+      "attributes": {
+        "name": "11",
+        "url": "/assets/patterns/onboarding/airtable1.png"
+      }
+    }, {
+      "id": "15",
+      "type": "patterns",
+      "attributes": {
+        "name": "12",
+        "url": "/assets/patterns/onboarding/drift1.png"
+      }
+    }, {
+      "id": "16",
+      "type": "patterns",
+      "attributes": {
+        "name": "13",
+        "url": "/assets/patterns/onboarding/drift2.png"
+      }
+    }, {
+      "id": "17",
+      "type": "patterns",
+      "attributes": {
+        "name": "14",
+        "url": "/assets/patterns/onboarding/drift3.png"
+      }
+    }, {
+      "id": "18",
+      "type": "patterns",
+      "attributes": {
+        "name": "15",
+        "url": "/assets/patterns/onboarding/drift4.png"
+      }
+    }, {
+      "id": "19",
+      "type": "patterns",
+      "attributes": {
+        "name": "16",
+        "url": "/assets/patterns/onboarding/drift5.png"
+      }
+    }, {
+      "id": "20",
+      "type": "patterns",
+      "attributes": {
+        "name": "17",
+        "url": "/assets/patterns/onboarding/drift6.png"
+      }
+    }, {
+      "id": "21",
+      "type": "patterns",
+      "attributes": {
+        "name": "18",
+        "url": "/assets/patterns/onboarding/basecamp.png"
+      }
+    }, {
+      "id": "22",
+      "type": "patterns",
+      "attributes": {
+        "name": "19",
+        "url": "/assets/patterns/onboarding/basecamp-1.png"
+      }
+    }, {
+      "id": "23",
+      "type": "patterns",
+      "attributes": {
+        "name": "20",
+        "url": "/assets/patterns/onboarding/bugsnag-1.png"
+      }
+    }, {
+      "id": "24",
+      "type": "patterns",
+      "attributes": {
+        "name": "21",
+        "url": "/assets/patterns/onboarding/bugsnag-2.png"
+      }
+    }, {
+      "id": "25",
+      "type": "patterns",
+      "attributes": {
+        "name": "22",
+        "url": "/assets/patterns/onboarding/bugsnag-3.png"
+      }
+    }, {
+      "id": "26",
+      "type": "patterns",
+      "attributes": {
+        "name": "23",
+        "url": "/assets/patterns/onboarding/bugsnag-4.png"
+      }
+    }, {
+      "id": "27",
+      "type": "patterns",
+      "attributes": {
+        "name": "24",
+        "url": "/assets/patterns/onboarding/clubhouse-io-1.png"
+      }
+    }, {
+      "id": "28",
+      "type": "patterns",
+      "attributes": {
+        "name": "25",
+        "url": "/assets/patterns/onboarding/clubhouse-io-2.png"
+      }
+    }, {
+      "id": "29",
+      "type": "patterns",
+      "attributes": {
+        "name": "26",
+        "url": "/assets/patterns/onboarding/gmail.png"
+      }
+    }, {
+      "id": "30",
+      "type": "patterns",
+      "attributes": {
+        "name": "27",
+        "url": "/assets/patterns/onboarding/raydoo-1.png"
+      }
+    }, {
+      "id": "31",
+      "type": "patterns",
+      "attributes": {
+        "name": "28",
+        "url": "/assets/patterns/onboarding/raydoo-2.png"
+      }
+    }, {
+      "id": "32",
+      "type": "patterns",
+      "attributes": {
+        "name": "29",
+        "url": "/assets/patterns/onboarding/intercom-1.png"
+      }
+    }, {
+      "id": "33",
+      "type": "patterns",
+      "attributes": {
+        "name": "30",
+        "url": "/assets/patterns/onboarding/intercom-2.png"
+      }
+    }, {
+      "id": "34",
+      "type": "patterns",
+      "attributes": {
+        "name": "31",
+        "url": "/assets/patterns/onboarding/intercom-3.png"
+      }
+    }, {
+      "id": "35",
+      "type": "patterns",
+      "attributes": {
+        "name": "32",
+        "url": "/assets/patterns/onboarding/raaft.png"
+      }
+    }, {
+      "id": "36",
+      "type": "patterns",
+      "attributes": {
+        "name": "33",
+        "url": "/assets/patterns/onboarding/realtimeboard-1.png"
+      }
+    }, {
+      "id": "37",
+      "type": "patterns",
+      "attributes": {
+        "name": "34",
+        "url": "/assets/patterns/onboarding/realtimeboard-2.png"
+      }
+    }, {
+      "id": "38",
+      "type": "patterns",
+      "attributes": {
+        "name": "35",
+        "url": "/assets/patterns/onboarding/realtimeboard-3.png"
+      }
+    }, {
+      "id": "39",
+      "type": "patterns",
+      "attributes": {
+        "name": "35",
+        "url": "/assets/patterns/onboarding/segment.png"
+      }
+    }, {
+      "id": "40",
+      "type": "patterns",
+      "attributes": {
+        "name": "35",
+        "url": "/assets/patterns/onboarding/survymonkey.png"
+      }
+    }
+  ]
+}

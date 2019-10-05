@@ -17,7 +17,26 @@
       { name: '15', url:'/assets/patterns/onboarding/drift4.png' },
       { name: '16', url:'/assets/patterns/onboarding/drift5.png' },
       { name: '17', url:'/assets/patterns/onboarding/drift6.png' },
-      { name: '18', url:'/assets/patterns/onboarding/drift7.png' },
+      { name: '18', url:'/assets/patterns/onboarding/basecamp.png' },
+      { name: '19', url:'/assets/patterns/onboarding/basecamp-1.png' },
+      { name: '20', url:'/assets/patterns/onboarding/bugsnag-1.png' },
+      { name: '21', url:'/assets/patterns/onboarding/bugsnag-2.png' },
+      { name: '22', url:'/assets/patterns/onboarding/bugsnag-3.png' },
+      { name: '23', url:'/assets/patterns/onboarding/bugsnag-4.png' },
+      { name: '24', url:'/assets/patterns/onboarding/clubhouse-io-1.png' },
+      { name: '25', url:'/assets/patterns/onboarding/clubhouse-io-2.png' },
+      { name: '26', url:'/assets/patterns/onboarding/gmail.png' },
+      { name: '27', url:'/assets/patterns/onboarding/raydoo-1.png' },
+      { name: '28', url:'/assets/patterns/onboarding/raydoo-2.png' },
+      { name: '29', url:'/assets/patterns/onboarding/intercom-1.png' },
+      { name: '30', url:'/assets/patterns/onboarding/intercom-2.png' },
+      { name: '31', url:'/assets/patterns/onboarding/intercom-3.png' },
+      { name: '32', url:'/assets/patterns/onboarding/raaft.png' },
+      { name: '33', url:'/assets/patterns/onboarding/realtimeboard-1.png' },
+      { name: '34', url:'/assets/patterns/onboarding/realtimeboard-2.png' },
+      { name: '35', url:'/assets/patterns/onboarding/realtimeboard-3.png' },
+      { name: '35', url:'/assets/patterns/onboarding/segment.png' },
+      { name: '35', url:'/assets/patterns/onboarding/survymonkey.png' },
     ]
 
     export const login = [
@@ -30,7 +49,9 @@
       {name:'instagram', url:'/assets/patterns/login/instagram.png'},
       {name:'teachable', url:'/assets/patterns/login/teachable.png'},
       {name:'opsgenie', url:'/assets/patterns/login/opsgenie.png'},
-      {name:'socialcaptain', url:'/assets/patterns/login/socialcaptain.png'}
+      {name:'socialcaptain', url:'/assets/patterns/login/socialcaptain.png'},
+      {name:'drift', url:'/assets/patterns/login/drift.png'},
+      {name:'raydoo', url:'/assets/patterns/login/raydoo.png'}
     ]
 
     export const signup = [
@@ -43,7 +64,8 @@
       {name:'github', url:'/assets/patterns/signups/github.png'},
       {name:'opsgenie', url:'/assets/patterns/signups/opsgenie.png'},
       {name:'socialcaptain', url:'/assets/patterns/signups/socialcaptain.png'},
-      {name:'sleeknote', url:'/assets/patterns/signups/sleeknote.png'}
+      {name:'sleeknote', url:'/assets/patterns/signups/sleeknote.png'},
+      {name:'clubhouse', url:'/assets/patterns/signups/clubhouse-io.png'}
 
     ]
 
